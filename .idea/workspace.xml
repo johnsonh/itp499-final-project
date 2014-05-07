@@ -23,11 +23,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app.js">
+      <file leaf-file-name="wiki.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/my-modules/wiki.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="321" column="39" selection-start="7248" selection-end="7248" vertical-scroll-proportion="0.43728223" vertical-offset="5206" max-vertical-offset="6137">
-              <folding />
+            <state line="27" column="37" selection-start="699" selection-end="699" vertical-scroll-proportion="0.74041814" vertical-offset="0" max-vertical-offset="731">
+              <folding>
+                <element signature="e#0#40#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -35,7 +37,7 @@
       <file leaf-file-name="lastfm.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-modules/lastfm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="34" selection-start="1134" selection-end="1134" vertical-scroll-proportion="0.0" vertical-offset="446" max-vertical-offset="1054">
+            <state line="25" column="0" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1054">
               <folding />
             </state>
           </provider>
@@ -155,6 +157,7 @@
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/views/song-info.ejs" />
         <option value="$PROJECT_DIR$/views/artist-info.ejs" />
+        <option value="$PROJECT_DIR$/my-modules/wiki.js" />
       </list>
     </option>
   </component>
@@ -308,7 +311,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19662243" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19662243" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -510,13 +513,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-modules/lastfm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="34" selection-start="1134" selection-end="1134" vertical-scroll-proportion="0.0" vertical-offset="446" max-vertical-offset="1054">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/results-page.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="0" selection-start="480" selection-end="489" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="799">
@@ -561,8 +557,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="321" column="39" selection-start="7248" selection-end="7248" vertical-scroll-proportion="0.43728223" vertical-offset="5206" max-vertical-offset="6137">
+        <state line="317" column="3" selection-start="7161" selection-end="7161" vertical-scroll-proportion="0.31881532" vertical-offset="5206" max-vertical-offset="6137">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-modules/lastfm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1054">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-modules/wiki.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="37" selection-start="699" selection-end="699" vertical-scroll-proportion="0.74041814" vertical-offset="0" max-vertical-offset="731">
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
