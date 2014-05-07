@@ -8,6 +8,7 @@ var admin = require('./my-modules/admin');
 var favorite = require('./my-modules/favorite');
 var auth = require('./my-modules/auth');
 var lastfm = require('./my-modules/lastfm');
+var wiki = require('./my-modules/wiki');
 
 var user;
 
@@ -145,19 +146,19 @@ app.get('/search/music', function(req, res)
             }
         }
     ],
-        function (err, results)
-        {
-            var songs = results[0];
-            var artists = results[1];
+    function (err, results)
+    {
+        var songs = results[0];
+        var artists = results[1];
 
-            console.log(songs);
-            console.log(artists);
+        console.log(songs);
+        console.log(artists);
 
-            res.render('results-page', {
-                songs: songs,
-                artists: artists
-            });
+        res.render('results-page', {
+            songs: songs,
+            artists: artists
         });
+    });
 
 });
 
@@ -319,37 +320,69 @@ app.get('/add-favorite-artist', function(req, res)
 
 app.get('/track/:title', function(req, res)
 {
-    lastfm.getSong(req.params.title, function(searchResults)
-    {
-        var artist = searchResults.artistName;
-        var album = searchResults.collectionName;
-        var genre = searchResults.primaryGenreName;
-        var preview = searchResults.previewUrl;
-        var picture = searchResults.artworkUrl100;
+    async.parallel([
+        function(callback)
+        {
+            wiki.getPage(req.params.title, function(page)
+            {
+                callback(null, page['*']);
+            });
+        },
+        function(callback)
+        {
+            lastfm.getSong(req.params.title, function(searchResults)
+            {
+                callback(null, searchResults);
+            });
+        }],
+        function(err, searchResults)
+        {
+            var wiki = searchResults[0];
+            var artist = searchResults[1].artistName;
+            var album = searchResults[1].collectionName;
+            var genre = searchResults[1].primaryGenreName;
+            var preview = searchResults[1].previewUrl;
+            var picture = searchResults[1].artworkUrl100;
 
-        res.render('song-info', {
-            title: req.params.title,
-            artist: artist,
-            album: album,
-            genre: genre,
-            preview: preview,
-            picture: picture
+            res.render('song-info', {
+                title: req.params.title,
+                artist: artist,
+                album: album,
+                genre: genre,
+                preview: preview,
+                picture: picture,
+                wiki: wiki
+            });
+
         });
-    });
 
 
 });
 
 app.get('/artist/:name', function(req, res)
 {
-    lastfm.getArtist(req.params.name, function(searchResults)
-    {
-        res.render('artist-info', {
-            songs: searchResults
+    async.parallel([
+        function(callback)
+        {
+            wiki.getPage(req.params.name, function(page)
+            {
+                callback(null, page['*']);
+            });
+        },
+        function(callback)
+        {
+            lastfm.getArtist(req.params.name, function(searchResults)
+            {
+                callback(null, searchResults);
+            });
+        }],
+        function(err, searchResults)
+        {
+            res.render('artist-info', {
+                wiki: searchResults[0],
+                songs: searchResults[1]
+            });
         });
-    });
-
-
 });
 
 app.listen(4500);

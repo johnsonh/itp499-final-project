@@ -34,9 +34,10 @@ module.exports = {
         {
             var sql =  "INSERT INTO users (`ID`, `username`, `password`, `admin`) VALUES (NULL ,  ?,  ?,  '0');";
 
-            connection.query(sql, [username, pass], function(err, rows){
-                //rows = results
-                queryCB(rows);   //control going back to app.js  the parallel call
+            connection.query(sql, [username, pass], function(err, result){
+                //result = results
+                console.assert(result.affectedRows <= 1, "There was more than 1 row affected");
+                queryCB(result);   //control going back to app.js  the parallel call
             });
 
         });
@@ -62,9 +63,10 @@ module.exports = {
         {
             var sql =  "INSERT INTO artists (`ID`, `artist_name`) VALUES (NULL ,  ?);";
 
-            connection.query(sql, [artist], function(err, rows){
-                //rows = results
-                queryCB(rows);   //control going back to app.js  the parallel call
+            connection.query(sql, [artist], function(err, result){
+                //result = results
+                console.assert(result.affectedRows <= 1, "There was more than 1 row affected");
+                queryCB(result);   //control going back to app.js  the parallel call
             });
 
         });
@@ -97,9 +99,10 @@ module.exports = {
         {
             var sql =  "INSERT INTO songs (`ID`, `title`, `artist_id`) VALUES (NULL , ?, ?);";
 
-            connection.query(sql, [title, artist], function(err, rows){
-                //rows = results
-                queryCB(rows);   //control going back to app.js  the parallel call
+            connection.query(sql, [title, artist], function(err, result){
+                //result = results
+                console.assert(result.affectedRows <= 1, "There was more than 1 row affected");
+                queryCB(result);   //control going back to app.js  the parallel call
             });
 
         });
@@ -125,9 +128,10 @@ module.exports = {
         {
             var sql =  "DELETE FROM artists WHERE artists.ID = ?";
 
-            connection.query(sql, [artist], function(err, rows){
-                //rows = results
-                queryCB(rows);   //control going back to app.js  the parallel call
+            connection.query(sql, [artist], function(err, result){
+                //result = results
+                console.assert(result.affectedRows <= 1, "There was more than 1 row affected");
+                queryCB(result);   //control going back to app.js  the parallel call
             });
 
         });
@@ -153,9 +157,10 @@ module.exports = {
         {
             var sql =  "DELETE FROM songs WHERE songs.title = ?";
 
-            connection.query(sql, [title], function(err, rows){
-                //rows = results
-                queryCB(rows);   //control going back to app.js  the parallel call
+            connection.query(sql, [title], function(err, result){
+                //result = results
+                console.assert(result.affectedRows <= 1, "There was more than 1 row affected");
+                queryCB(result);   //control going back to app.js  the parallel call
             });
 
         });

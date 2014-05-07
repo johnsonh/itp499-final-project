@@ -9,6 +9,8 @@
 
 <h1>Last fm info about <%= songs[0].artistName %> (i.e. top 5 songs)</h1>
 
+<%- wiki %>
+
 <% for (var i = 0; i < songs.length; i++) { %>
     <p>Title: <%= songs[i].trackName %></p>
     <p>Album: <%= songs[i].collectionName %></p>

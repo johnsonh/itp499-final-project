@@ -14,7 +14,7 @@ module.exports = {
         console.log("getting page from Wikipedia");
 
         term = term.split(' ').join('+');
-        var url = endpoint1 + song + endpoint2;
+        var url = endpoint1 + term + endpoint2;
 
         request({
             url: url,
