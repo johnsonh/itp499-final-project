@@ -1,0 +1,42 @@
+<h1>Music Search Results</h1>
+
+<%if (typeof songs !== 'undefined' && songs != null) { %>
+
+<form action="/add-favorite-song" method="get">
+<h4>Your favorite Songs: </h4>
+<ul>
+    <% for (var i = 0; i < songs.length; i++) { %>
+    <li>
+        <span><a href="/track/<%= songs[i].title %>">
+        <%= songs[i].title %>
+        </a></span>
+        <button name="addFavoriteSong" type="submit" value="<%= songs[i].ID %>">Add to Favorites</button>
+    </li>
+    <% } %>
+</ul>
+</form>
+
+<% } %>
+
+<%if (typeof artists !== 'undefined' && artists != null) { %>
+
+<form action="/add-favorite-artist" method="get">
+<h4>Your favorite artists: </h4>
+<ul>
+    <% for (var i = 0; i < artists.length; i++) { %>
+    <li>
+        <span><a href="/artist/<%= artists[i].artist_name %>">
+        <%= artists[i].artist_name %>
+        </a></span>
+        <button name="addFavoriteArtist" type="submit" value="<%= artists[i].ID %>">Add to Favorites</button>
+    </li>
+    <% } %>
+</ul>
+</form>
+
+<% } %>
+
+<%if (typeof songs !== 'undefined' && artists != null
+    && typeof artists === 'undefined' && artists == null) { %>
+    <h3> You didn't search any terms ... </h3>
+<% } %>

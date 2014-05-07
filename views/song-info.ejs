@@ -1,0 +1,23 @@
+<!--res.render('song-info', {-->
+<!--title: req.params.title,-->
+<!--artist: artist,-->
+<!--album: album,-->
+<!--genre: genre,-->
+<!--preview: preview,-->
+<!--picture: picture-->
+<!--});-->
+
+<h1>Last fm info about <%= title %></h1>
+
+<p>Artist: <%= artist %></p>
+<p>Album: <%= album %></p>
+<p>Genre: <%= genre %></p>
+
+<img src="<%= picture %>" alt="Album Cover">
+
+</br>
+
+<p>preview:</p>
+<video controls autoplay>
+    <source src="<%= preview %>" type="audio/mp4">
+</video>

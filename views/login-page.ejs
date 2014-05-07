@@ -1,0 +1,12 @@
+<h1>Login Page</h1>
+
+<%if (typeof error !== 'undefined' && error) { %>
+    <p1> Sorry, invalid login. Please try again. </p1>
+<% } %>
+
+<!-- submit to /artists -->
+<form action="/log-in" method="get">
+    Username: <input type="text" name="username"> </br>
+    Password: <input type="password" name="pass"> </br>
+    <input type="submit" value="Login">
+</form>

@@ -1,0 +1,27 @@
+<!--res.render('song-info', {-->
+<!--title: req.params.title,-->
+<!--artist: artist,-->
+<!--album: album,-->
+<!--genre: genre,-->
+<!--preview: preview,-->
+<!--picture: picture-->
+<!--});-->
+
+<h1>Last fm info about <%= songs[0].artistName %> (i.e. top 5 songs)</h1>
+
+<% for (var i = 0; i < songs.length; i++) { %>
+    <p>Title: <%= songs[i].trackName %></p>
+    <p>Album: <%= songs[i].collectionName %></p>
+    <p>Genre: <%= songs[i].primaryGenreName %></p>
+
+    <img src="<%= songs[i].artworkUrl100 %>" alt="Album Cover">
+
+    </tr>
+
+    <p>preview:</p>
+    <video controls>
+        <source src="<%= songs[i].previewUrl %>" type="audio/mp4">
+    </video>
+
+    <hr>
+<% } %>

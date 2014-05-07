@@ -1,0 +1,28 @@
+
+
+<h1> Welcome back, <%=username%>! </h1>
+
+<%if (typeof admin !== 'undefined' && admin) { %>
+    <p1> You are also an admin! Want to do admin things on the
+        <a href="/admin">admin page </a>? </p1>
+<% } %>
+
+<h3><a href="/search">Search for more music? </a></h3>
+
+<h4>Your favorite Songs: </h4>
+<ul>
+    <% for (var i = 0; i < favSongs.length; i++) { %>
+    <li>
+        <%= favSongs[i].title %>
+    </li>
+    <% } %>
+</ul>
+
+<h4>Your favorite artists: </h4>
+<ul>
+    <% for (var i = 0; i < favArtists.length; i++) { %>
+    <li>
+        <%= favArtists[i].artist_name %>
+    </li>
+    <% } %>
+</ul>

@@ -1,0 +1,57 @@
+<h1> Welcome to the admin page! </h1>
+
+<h3><a href="/log-in">Return to home? </a></h3>
+
+<h4> Create new user </h4>
+<form action="/admin/create-user" method="get">
+    Username: <input type="text" name="username"> </br>
+    Password: <input type="password" name="pass"> </br>
+    <input type="submit" value="Create">
+</form>
+
+<h4> Create new artist </h4>
+<form action="/admin/create-artist" method="get">
+    Artist: <input type="text" name="artist"> </br>
+    <input type="submit" value="Create">
+</form>
+
+<h4> Create new song </h4>
+<form action="/admin/create-song" method="get">
+    Title: <input type="text" name="title"> </br>
+    Artist:
+    <select name="artist">
+        <% for (var i = 0; i < artists.length; i++) { %>
+            <option value='<%= artists[i].ID %>' /> <%= artists[i].artist_name %> </option>
+        <% }%>
+    </select>
+    <input type="submit" value="Create">
+</form>
+
+<h4> Delete artist </h4>
+<form action="/admin/delete-artist" method="get">
+    Artist:
+    <select name="artist">
+        <% for (var i = 0; i < artists.length; i++) { %>
+        <option value='<%= artists[i].ID %>' /> <%= artists[i].artist_name %> </option>
+        <% }%>
+    </select>
+    <input type="submit" value="Delete">
+</form>
+
+<h4> Delete song </h4>
+<form action="/admin/delete-song" method="get">
+    Title: <input type="text" name="title"> </br>
+    <input type="submit" value="Delete">
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
