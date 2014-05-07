@@ -23,39 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="377" column="11" selection-start="8715" selection-end="8715" vertical-scroll-proportion="0.0" vertical-offset="6005" max-vertical-offset="6698">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wiki.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-modules/wiki.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="34" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="731">
-              <folding>
-                <element signature="e#0#40#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lastfm.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-modules/lastfm.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1054">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="auth.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-modules/auth.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="16" selection-start="755" selection-end="755" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="680">
+            <state line="22" column="0" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
               <folding>
                 <element signature="e#0#40#0" expanded="false" />
               </folding>
@@ -66,7 +37,7 @@
       <file leaf-file-name="auth-tests.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/auth-tests.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="2" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+            <state line="28" column="34" selection-start="667" selection-end="667" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
               <folding>
                 <element signature="e#0#40#0" expanded="false" />
               </folding>
@@ -74,21 +45,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="favorite.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my-modules/favorite.js">
+      <file leaf-file-name="admin-tests.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/admin-tests.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="0" selection-start="1728" selection-end="1728" vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="1241">
+            <state line="26" column="15" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
               <folding>
-                <element signature="e#1#41#0" expanded="false" />
+                <element signature="e#0#40#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sql-result.ejs" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/sql-result.ejs">
+      <file leaf-file-name="search-page.ejs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/search-page.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="7" selection-start="78" selection-end="78" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="136">
+            <state line="20" column="7" selection-start="377" selection-end="377" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="442">
               <folding />
             </state>
           </provider>
@@ -97,8 +68,10 @@
       <file leaf-file-name="admin.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-modules/admin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="11" selection-start="2466" selection-end="2466" vertical-scroll-proportion="0.0" vertical-offset="1292" max-vertical-offset="2975">
-              <folding />
+            <state line="127" column="9" selection-start="3359" selection-end="3359" vertical-scroll-proportion="0.0" vertical-offset="1275" max-vertical-offset="2397">
+              <folding>
+                <element signature="e#169#1118#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -106,16 +79,43 @@
       <file leaf-file-name="song-info.ejs" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/song-info.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="233" selection-end="244" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="527">
+            <state line="34" column="7" selection-start="567" selection-end="567" vertical-scroll-proportion="-18.461538" vertical-offset="98" max-vertical-offset="680">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="artist-info.ejs" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="sql-result.ejs" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/sql-result.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="7" selection-start="161" selection-end="161" vertical-scroll-proportion="0.37226278" vertical-offset="0" max-vertical-offset="548">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="results-page.ejs" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/results-page.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="7" selection-start="1234" selection-end="1234" vertical-scroll-proportion="-18.615385" vertical-offset="383" max-vertical-offset="969">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="0" selection-start="66" selection-end="81" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="238">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="artist-info.ejs" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/artist-info.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="278" selection-end="278" vertical-scroll-proportion="0.37226278" vertical-offset="0" max-vertical-offset="595">
+            <state line="38" column="7" selection-start="768" selection-end="768" vertical-scroll-proportion="-18.461538" vertical-offset="166" max-vertical-offset="748">
               <folding />
             </state>
           </provider>
@@ -134,22 +134,25 @@
         <option value="$PROJECT_DIR$/my-modules/config.js" />
         <option value="$PROJECT_DIR$/views/hello.ejs" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/views/search-page.ejs" />
         <option value="$PROJECT_DIR$/my-modules/query.js" />
         <option value="$PROJECT_DIR$/views/admin-success.ejs" />
-        <option value="$PROJECT_DIR$/views/admin-page.ejs" />
-        <option value="$PROJECT_DIR$/views/home-page.ejs" />
-        <option value="$PROJECT_DIR$/views/login-page.ejs" />
         <option value="$PROJECT_DIR$/my-modules/favorite.js" />
-        <option value="$PROJECT_DIR$/views/results-page.ejs" />
         <option value="$PROJECT_DIR$/my-modules/lastfm.js" />
         <option value="$PROJECT_DIR$/my-modules/wiki.js" />
-        <option value="$PROJECT_DIR$/views/song-info.ejs" />
-        <option value="$PROJECT_DIR$/my-modules/auth.js" />
         <option value="$PROJECT_DIR$/my-modules/admin.js" />
-        <option value="$PROJECT_DIR$/tests/auth-tests.js" />
         <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/tests/auth-tests.js" />
+        <option value="$PROJECT_DIR$/my-modules/auth.js" />
+        <option value="$PROJECT_DIR$/tests/admin-tests.js" />
+        <option value="$PROJECT_DIR$/views/test.html" />
+        <option value="$PROJECT_DIR$/views/admin-page.ejs" />
         <option value="$PROJECT_DIR$/views/artist-info.ejs" />
+        <option value="$PROJECT_DIR$/views/home-page.ejs" />
+        <option value="$PROJECT_DIR$/views/login-page.ejs" />
+        <option value="$PROJECT_DIR$/views/results-page.ejs" />
+        <option value="$PROJECT_DIR$/views/search-page.ejs" />
+        <option value="$PROJECT_DIR$/views/song-info.ejs" />
+        <option value="$PROJECT_DIR$/views/sql-result.ejs" />
       </list>
     </option>
   </component>
@@ -281,6 +284,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="SearchEverywhereHistory" value="" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -314,7 +318,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19662243" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -448,41 +452,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/search-page.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="7" selection-start="294" selection-end="294" vertical-scroll-proportion="0.310219" vertical-offset="0" max-vertical-offset="548">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/login-page.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="27" selection-start="162" selection-end="162" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="289">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/results-page.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="480" selection-end="489" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="799">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/admin-page.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="47" selection-start="86" selection-end="86" vertical-scroll-proportion="0.0317757" vertical-offset="17" max-vertical-offset="1071">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/hello.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="27" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="569">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-modules/lastfm.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="0" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1054">
@@ -504,50 +473,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-modules/auth.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="16" selection-start="755" selection-end="755" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="680">
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-modules/favorite.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="69" column="0" selection-start="1728" selection-end="1728" vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="1241">
           <folding>
             <element signature="e#1#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/sql-result.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="7" selection-start="78" selection-end="78" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="136">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my-modules/admin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="11" selection-start="2466" selection-end="2466" vertical-scroll-proportion="0.0" vertical-offset="1292" max-vertical-offset="2975">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/home-page.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="9" selection-start="410" selection-end="410" vertical-scroll-proportion="0.49635038" vertical-offset="0" max-vertical-offset="561">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/auth-tests.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="2" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -563,21 +493,113 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="377" column="11" selection-start="8715" selection-end="8715" vertical-scroll-proportion="0.0" vertical-offset="6005" max-vertical-offset="6698">
+        <state line="8" column="40" selection-start="272" selection-end="312" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6698">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/song-info.ejs">
+    <entry file="file://$PROJECT_DIR$/my-modules/admin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="233" selection-end="244" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="527">
+        <state line="127" column="9" selection-start="3359" selection-end="3359" vertical-scroll-proportion="0.0" vertical-offset="1275" max-vertical-offset="2397">
+          <folding>
+            <element signature="e#169#1118#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-modules/auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/auth-tests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="34" selection-start="667" selection-end="667" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/admin-tests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="15" selection-start="613" selection-end="613" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="66" selection-end="81" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin-page.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="7" selection-start="1499" selection-end="1499" vertical-scroll-proportion="-17.307692" vertical-offset="655" max-vertical-offset="1207">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/artist-info.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="278" selection-end="278" vertical-scroll-proportion="0.37226278" vertical-offset="0" max-vertical-offset="595">
+        <state line="38" column="7" selection-start="768" selection-end="768" vertical-scroll-proportion="-18.461538" vertical-offset="166" max-vertical-offset="748">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/hello.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="27" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="569">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/home-page.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="7" selection-start="682" selection-end="682" vertical-scroll-proportion="0.9069343" vertical-offset="98" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/login-page.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="7" selection-start="442" selection-end="442" vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/results-page.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="7" selection-start="1234" selection-end="1234" vertical-scroll-proportion="-18.615385" vertical-offset="383" max-vertical-offset="969">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/search-page.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="7" selection-start="377" selection-end="377" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/song-info.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="7" selection-start="567" selection-end="567" vertical-scroll-proportion="-18.461538" vertical-offset="98" max-vertical-offset="680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/sql-result.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="7" selection-start="161" selection-end="161" vertical-scroll-proportion="0.37226278" vertical-offset="0" max-vertical-offset="548">
           <folding />
         </state>
       </provider>

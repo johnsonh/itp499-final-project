@@ -27,7 +27,7 @@ module.exports = {
 
             connection.query(sql, [username, password], function(err, rows){
                 //rows = results
-                console.assert(r.length <= 1, "There is more than 1 matching user");
+                console.assert(rows.length <= 1, "There is more than 1 matching user");
                 cb(rows);   //control going back to app.js  the parallel call
             });
 
